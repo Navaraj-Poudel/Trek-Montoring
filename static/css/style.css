@@ -1,0 +1,278 @@
+header{
+background-color: green;
+padding: 70px;
+text-align: center;
+color: white;
+font-family:"Comic Sans Ms", arial;
+}
+header img{
+float: left;
+padding-left:0px;
+padding-top: 11px;
+margin:0;}
+.row{
+font-size:27px;
+/*font-style: italic;*/
+/* font-weight: bold;*/
+}
+body{
+margin:0;
+background-color: #f1f1f1;}
+nav{
+overflow: hidden;
+background-color: #333;
+padding: 12px;
+}
+nav a{
+float:left;
+color:#fff;
+padding:14px 16px;
+text-decoration-style: none;
+list-style: none;
+text-decoration:none;
+font-size: 25px;
+}
+nav a:hover{
+background-color: black;
+color: aqua;
+}
+
+footer{
+clear:both;
+background-color:green;
+padding: 20px;
+color: white;
+}
+
+footer p{
+text-align: center;
+font-size: 25px;
+}
+div.gallery{
+margin: 20px 30px;
+border: 5px solid black;
+float:left;
+width:180;
+}
+div.gallery:hover{
+border: 5px solid red;
+}
+@media screen and (max-width: 894px){
+.column.side,.column.middle{
+width: 100%;
+}
+}/*section{
+height: 100vh;
+}*/
+section p{
+text-align: justify;
+}
+.trek{
+height:59vh;
+}
+.det1{
+margin:31px 364px;
+width:750px;
+/* padding: 1px 1px; */
+height: 49vh;
+text-align: justify;
+font-size: 27px;
+}
+.guide1{
+float: left;
+margin: 20px;
+padding: 8px 8px;
+}
+.det2{
+margin:31px 364px;
+width:750px;
+padding-top: 2px;
+height: 49vh;
+text-align: justify;
+font-size: 27px;
+}
+.guide2{
+float: left;
+margin: 20px;
+padding: 8px 8px;}
+.mhead{
+margin:-2px auto;
+width:1200px;
+/* /*padding: 2px 50px; */
+ padding-left: 300px;
+height: 49vh;
+font-size: 27px;
+text-align: justify;
+}
+.guide3{
+float: left;
+margin: 20px;
+padding: 8px 8px;
+}
+.det3{
+margin:31px 364px;
+width:750px;
+padding-top:1px;
+/* padding: 2px 1px; */
+height: 49vh;
+text-align: justify;
+font-size: 27px;
+}
+.mardi{
+font-size: 27px;
+text-align: justify;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}.mimage{
+margin:10px;
+float:left;
+width: 300px;
+height: 260px;}
+.thead{
+margin:-2px auto;
+width:1200px;
+/*padding: 2px 50px;
+*/ padding-left: 300px;
+height: 49vh;
+font-size: 27px;
+text-align: justify;
+}
+.timage{
+margin:10px;
+float:left;
+width: 300px;
+height: 260px;}
+.tilicho{
+font-size: 27px;
+text-align: justify;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.lhead{
+margin:-2px auto;
+width:1200px;
+/*padding: 2px 50px;
+*/ padding-left: 300px;
+height: 49vh;
+font-size:27px;
+text-align: justify;
+}
+.limage{
+margin:10px;
+padding-left: 20px;
+padding-top: 40px;
+float:left;
+width: 300px;
+height: 260px;}
+.lamtang{
+font-size:27px;
+text-align: justify;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+input[type=text],select,textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;}
+input[type=submit]{
+background-color: red;
+color: white;
+padding: 12px 20px;
+cursor: pointer;
+border: none;
+margin:2px;}
+.contact{
+text-align: center;
+}
+.details{
+padding-left: 20px;
+padding-right: 100px;
+}/*table, th, td {
+border: 1px solid;
+}
+*/
+.tab1 {
+padding-left:20px;
+padding-top: -5px;
+width: 70%;
+}.tab2{
+border-collapse: collapse;
+padding-left: 20px;
+width: 70%;
+}
+.current1 h3{
+text-align: center;
+color: blue;
+}
+.tab3 table, th, td {
+border: 1px solid black;
+width: 50%; } .tab3{
+padding-left: 30vw; }
+/*.clsdet{
+text-align: center;
+padding-left: 400px;
+width: 50%;
+}*/
+.team{
+padding-top: 20px;
+text-align: center;
+
+}
+.clsdet{
+text-align: justify-all;
+font-size:27px;
+text-align: center;
+padding-left: 150px;
+padding-right: 150px; }
+.row{
+padding-left: 50px;
+padding-right: 50px;
+}
+/* .clsdet{
+font-size: 20px;
+text-align: center;
+}*/
+.desc{
+text-align: center;
+}
+/*.header,.himage{
+padding-left: 0px;
+}*/
+div.trekker{
+margin: 20px 30px;
+border: 5px solid black;
+float:left;
+width:200px;
+height: 150px;
+}
+div.trekker:hover{
+border: 5px solid red;
+}
+.trekker p{
+text-align: center;
+font-size: 40px;
+color: black;
+font-weight: bold;
+text-decoration-line: none;
+list-style: none;}
+.info{
+    height: 60vh;
+}
+.trekker a{
+    text-decoration: none;
+}
+.box{
+    padding-left: 25vw;
+    padding-right:25vw ;
+    width: 50%;
+}
+.trek1 {
+    height: 200vh;
+    
+}
